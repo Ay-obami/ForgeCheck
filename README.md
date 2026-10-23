@@ -22,7 +22,7 @@ npm test
 npm run check:repo
 ```
 
-The built CLI is available through the package's `forgecheck` binary mapping; it is **not published** to npm. `npm exec -- forgecheck --help` works after installation in the checkout.
+The built CLI is available at `dist/cli.js`; the package also declares a `forgecheck` binary for future packaging. It is **not published** to npm. Run it locally with `node dist/cli.js` (do not use `npx` to download unrelated packages).
 
 **Supported commands now:**
 
